@@ -15,7 +15,6 @@ public class WelcomeController {
 		return service.retriveWelcomeMessege();
 	}
 }
-
 class WelcomeService {
 	public String retriveWelcomeMessege() {
 		return "hello from welcomeService";
